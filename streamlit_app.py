@@ -26,23 +26,23 @@ if page == 'Home':
         st.title("📊 FP&A Software Selection")
         st.image('./Impellam NA logo.png', caption="Impellam Group Logo.") 
         st.write("The FP&A Software Selection Project provides helpful insights about the benefits and challenges of utilizing AI capabilties for the FP&A NA department of Impellam Group.")
-        st.write("This project aims to compare two AI FP&A softwares: Datarails and Adaptive Insights.") 
-        st.write("The goal is to provide a cgit omprehensive overview of their capabilities, benefits, and challenges in the context of financial planning and analysis.")
-        st.write("The project will include an overview of the software selection process, a comparison of the two AI solutions, and final thoughts on the best fit for the FP&A department at Impellam Group. The project will also explore how these AI solutions can enhance financial data analysis, improve reporting efficiency, and support strategic decision-making within the organization.")
-        st.write("The project will be presented in a Streamlit app format, allowing for interactive exploration of the software features and capabilities. Users will be able to navigate through different sections, view comparisons, and gain insights into the benefits and challenges of each solution.")
+        st.write("This app aims to compare two AI FP&A software AI capabilities: Datarails and Adaptive Insights.") 
+        st.write("The goal is to provide a comprehensive overview of their capabilities, benefits, and challenges in the context of financial planning and analysis.")
+        st.write("The app will include an overview of the software selection process, a comparison of the two AI solutions, and final thoughts on the best fit for the FP&A Department at Impellam Group. This app will also explore how these AI solutions can enhance financial data analysis, improve reporting efficiency, and support strategic decision-making within the organization.")
+        st.write("The app will be presented in a Streamlit app format, allowing for interactive exploration of the software features and capabilities. Users will be able to navigate through different sections, view comparisons, and gain insights into the benefits and challenges of each solution.")
         
 
 elif page =='FP&A Software Selection Overview':
         st.title("FP&A Software Selection Overview")
         st.image("./Impellam NA logo.png")
-        st.write("Welcome to the Home Page of my steamlit for the FP&A Software Selection Project. The purpose of this app is to compare the benefits and challenges of two AI FP&A softwares: Datarails and Adaptive Insights!")
+        st.write("Welcome to the Overivew Page of my steamlit app for the FP&A Software Selection. The purpose of this app is to compare the benefits and challenges of two AI FP&A softwares: Datarails and Adaptive Insights!")
         st.write("Impellam has a strategic business need to improve speed  on decisions, provide advanced forecasting models, reduce manual efforts across static excel files and enhance enterprise reporting across multiple finance functions.")
         st.write("To solve this need, Finance selected a tool that can meet all internal deliverables and be utilized by a broader audience than current tools. These deliverables include Margin & Revenue scenario modeling, internal cost modeling, Annual budgeting processes, detailed updates for monthly forecasting , enhanced internal reporting, self service reporting and budget management.")
         
 
 elif page == 'AI Comparison':
             st.title("AI Comparison")
-            st.write("This page provides tailored insights about the benfits and challenges of Datarails and Adaptive Inisghts for the FP&A department Impellam group.")
+            st.write("This page provides tailored insights about the benfits and challenges of Datarails and Adaptive Inisghts for the FP&A department at Impellam group.")
         
 
 elif page == 'Final Thoughts':
